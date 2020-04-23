@@ -1,0 +1,98 @@
+
+<html>
+    <head>
+        <title>Dashboard</title>
+        <link rel="stylesheet"type="text/css" href="styles/global.css" />
+        <style>
+            * {
+                box-sizing: border-box;
+                    }
+
+
+                    .column {
+                    float: left;
+                    width: 25%;
+                    padding: 70px;
+                    height: 200px; 
+
+                    
+                    }
+
+
+                    .row:after {
+                    
+                    content: "";
+                    display: table;
+                    clear: both;
+                    }
+
+        </style>
+    </head>
+
+    <body>
+        
+
+
+            <div id="header">
+                <div class="logo"><a href="#">Admin<span>Panel</span></a></div>
+
+                <div class="dropdown">
+                    <button class="dropbtn"><span>  Profile/Logout </span></button>
+                    <div class="dropdown-content">
+                    <a href="#">Profile</a>
+                    <a href="#">Logout</a>
+                    </div>
+                    </div>
+            </div>
+
+            <div id="container">
+                <div class="sidebar">
+                        <ul id="nev">
+                            <li><a class="selected" href="index.html">Dashboard</a></li>
+                            <li><a href="Register.html">Register</a></li>
+                            <li><a href="Report.html">Report</a></li>
+                            <li><a href="Details.html">Details</a></li>
+                            <li><a href="Delete.html">Delete</a></li>
+                            <li><a href="Serach.html">Search</a></li>
+                        </ul>
+                </div>
+                <div class="content">
+                        <H1>DashBoard</H1>
+                        <p>Admin</p>
+
+                        <div id="box">
+                            <div class="box-top">Admin panel</div>
+                            <div class="box-panel">
+                                Some Details
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="column" style="background-color:rgb(128, 198, 255);">
+                              <a href="#"><h1 align ="Center"> Custermize Data </h1></a>
+                              
+                            </div>
+                            <div class="column" style="background-color:rgb(118, 255, 164);">
+                                <a href="#"><h1 align ="Center">Infomations</h1></a>
+                              
+                            </div>
+                            <div class="column" style="background-color:rgb(232, 255, 104);">
+                                <a href="#"><h1 align ="Center">Settings</h1></a>
+                              
+                            </div>
+                            <div class="column" style="background-color:rgb(255, 169, 89);">
+                                <a href="#"><h1 align ="Center">Reports</h1></a>
+                              
+                            </div>
+                          </div>
+                
+                          
+                </div>
+                
+            </div>
+
+
+               
+
+    </body>
+</html>
